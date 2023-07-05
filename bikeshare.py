@@ -27,7 +27,8 @@ def get_filters():
         print("Please keep in mind that some data may be not available for all cities. Some statistics may be incorrect.")
 
     print('Select month for data analysis:')
-    options = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
+    options = ['January', 'February', 'March',
+                'April', 'May', 'June', 'All']
     selected = show_term_menu(options)
     print(f"We'll show data for {options[selected]}")
     month = options[selected]
@@ -71,7 +72,8 @@ def load_data(city, month, day):
     df['day_of_week'] = df['Start Time'].dt.day_name()
 
     if month != 'All':
-        months = ['January', 'February', 'March', 'April', 'May', 'June']
+        months = ['January', 'February', 'March',
+                   'April', 'May', 'June']
         month = months.index(month) + 1
         df = df[df['month'] == month]
 
