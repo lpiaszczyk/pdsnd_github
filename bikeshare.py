@@ -62,6 +62,8 @@ def load_data(city, month, day):
         df_newYork = pd.read_csv(CITY_DATA['New York City'])
         df_washington = pd.read_csv(CITY_DATA['Washington'])
         # cast washington trip duration to the same type as in other cities
+        # as some data is currently missing for Washington, keep in mind that statistics may be inaccurate.
+        # make sure to check if data exists in data frame
         df_washington['Trip Duration'] = df_washington['Trip Duration'].astype(
             'int')
         df = df_chicago.merge(df_newYork, how='left').merge(
