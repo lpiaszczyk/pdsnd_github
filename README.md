@@ -30,3 +30,5 @@ Libraries used:
 Project is part of Udacity [Programming for Data Science with Python]
 (https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104) Nanodegree program
 Idea and data files are provided by Udacity.
+### Known issues
+Provided washington.csv data file has some data missing and trip duration data in incompatible type (float vs int), when selecting statistics for all cities some results may be incorrect or not precise.
