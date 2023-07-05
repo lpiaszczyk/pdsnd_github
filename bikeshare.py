@@ -1,6 +1,4 @@
 import time
-
-import numpy as np
 import pandas as pd
 from simple_term_menu import TerminalMenu
 
