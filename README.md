@@ -1,17 +1,32 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+| Date created | Created by | Version |
+|:---|:---|:---|
+| 05.07.2023 | Łukasz Piaszczyk | 1.0 |
 
-### Project Title
-Replace the Project Title
+# Bikeshare data analysis
 
 ### Description
-Describe what your project is about and what it does
+Project created as a part of Udacity Programming for Data Science with Python Nanodegree program.
+It's a simple interactive Python app, that calculates various statistics from data provided. 
+#### Installation and requirements
+Solution contains fire *requirements.txt* that lists libraries used. Use pip [to install required libraries](https://pip.pypa.io/en/stable/cli/pip_install/#install-requirement) as so:
+```
+pip install -r requirements.txt
+```
+**External libraries used in project currently have no Windows implementation, so Linux-based system is required!**
 
 ### Files used
-Include the files used
+Data files used in project and mentioned in code:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
+are not included in project and need to be downloaded from Udacity project site and placed in project root directory.
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Libraries used:
+[Simple term menu](https://pypi.org/project/simple-term-menu/)
+[Pandas](https://pypi.org/project/Pandas3/)
+[NumPy](https://pypi.org/project/numpy3/)
+Project is part of Udacity [Programming for Data Science with Python]
+(https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104) Nanodegree program
+Idea and data files are provided by Udacity.
